@@ -21,9 +21,9 @@ public class Contact implements Comparable<String>{
     
     
 
-    public Contact(String name, String phomeNO, String emailAddress, String address, String birthday, String notes) {
+    public Contact(String name, String phoneNO, String emailAddress, String address, String birthday, String notes) {
         this.name = name;
-        this.phoneNO = phomeNO;
+        this.phoneNO = phoneNO;
         this.emailAddress = emailAddress;
         this.address = address;
         this.birthday = birthday;
@@ -41,12 +41,12 @@ public class Contact implements Comparable<String>{
         this.name = name;
     }
 
-    public String getPhomeNO() {
+    public String getPhoneNO() {
         return phoneNO;
     }
 
     public void setPhomeNO(String phomeNO) {
-        this.phoneNO = phomeNO;
+        this.phoneNO = phoneNO;
     }
 
     public String getEmailAddress() {
