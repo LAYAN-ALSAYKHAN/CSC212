@@ -1,7 +1,7 @@
 
 package linked.list.phonebook;
 
-
+ghhh
 public class LinkedList {
     private node head;
     private node cur;
